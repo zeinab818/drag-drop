@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background: #928cff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputs{
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs h2{
+    font-size: 30px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 80%;
+}
+
+.data input{
+    padding: 4px;
+    outline:none ;
+    border: 1px solid #928cff;
+}
+
+
+.inputs .data button{
+    background: #928cff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.list .box{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.item{
+    background:#928cff ;
+    padding: 10px ;
+    margin: 4px;
+    cursor: pointer;
+}
+
+
+h2{
+    text-align: center;
+    font-size: 32px;
+}
